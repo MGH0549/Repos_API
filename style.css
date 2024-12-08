@@ -1,0 +1,68 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Tohoma","Arial",sans-serif;
+}
+.repo_container{
+    width: 800px;
+    background: #f6f6f6;
+    margin: 20px auto;
+    padding: 20px;
+}
+.repo_container .get_repos{
+    background-color: #333;
+    padding: 20px;
+    width: 100%;
+    display: flex;
+}
+.repo_container .get_repos input{
+    height: 54px;
+    width: 100%;
+    padding: 10px;
+    border: none;
+}
+.repo_container .get_repos input:focus{
+    outline: 3px solid #FFC107;
+}
+.repo_container .get_repos span{
+    height: 54px;
+    color: white;
+    line-height: 54px;
+    width: 25%;
+    text-align: center;
+    background-color: #FFC107;
+    margin: 0 10px;
+    cursor: pointer;
+}
+.repo_container .show_data{
+    background-color: #eee;
+    margin: 20px 0;
+    width: 800px;
+}
+.repo_container .show_data .repo_box{
+    background-color: white;
+    padding: 20px;
+    
+}
+.repo_container .show_data .repo_box:not(:last-child){
+    margin-bottom: 5px;
+}
+.repo_container .show_data .repo_box span,.repo_container .show_data .repo_box a{
+    float: right;
+    margin-left: 5px;
+    padding: 5px;
+    text-align: center;
+    font-size: 15px;
+    color: white;
+    border-radius: 4px;
+}
+.repo_container .show_data .repo_box span{
+    background-color: #FF5722;
+}
+.repo_container .show_data .repo_box a{
+    text-decoration: none;
+    background-color: #009688;
+}
